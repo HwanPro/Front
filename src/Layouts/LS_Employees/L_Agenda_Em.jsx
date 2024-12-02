@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { getTotalActiveQuotes, getTodayActiveQuotes } from '../../Services/quotesService.js';
-import { getTotalActivePets } from '../../Services/PetService.js';
+import { getTotalActivePets } from '../../Services/petService.js';
 import "../../Layouts/Layouts.css"
 import C_Title from '../../Components/CS_General/C_Title/C_Title'
 import C_Calendar from '../../Components/CS_Employees/C_Calendar'
