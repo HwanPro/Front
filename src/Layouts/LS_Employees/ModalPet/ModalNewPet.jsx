@@ -4,7 +4,7 @@ import Box_Text_Value from '../../../Components/CS_General/Form Box/Box_Text/Box
 import HiddenInput from '../../../Components/CS_General/Form Box/Box_Text/HiddenInput';
 import { getClientByDni } from '../../../Services/clientService';
 import { searchRaceByName } from '../../../Services/raceService';
-import { createPet } from '../../../Services/PetService';
+import { createPet } from '../../../Services/petService';
 
 function ModalNewPet({ onClose, onUpdate }) {
     const [petData, setPetData] = useState({
