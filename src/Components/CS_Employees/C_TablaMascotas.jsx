@@ -9,7 +9,7 @@ import ModalEditPet from '../../Layouts/LS_Employees/ModalPet/ModalEditPet';
 import ModalNewPet from '../../Layouts/LS_Employees/ModalPet/ModalNewPet';
 import L_InfoPet_Em from '../../Layouts/LS_Employees/L_InfoPet_Em';
 import C_Title from '../CS_General/C_Title/C_Title';
-import { searchPets, blockPet } from '../../Services/PetService';
+import { searchPets, blockPet } from '../../Services/petService';
 
 function C_TablaMascotas() {
   const [pets, setPets] = useState([]);
